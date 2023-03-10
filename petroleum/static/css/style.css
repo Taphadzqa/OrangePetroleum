@@ -64,7 +64,8 @@ section
 .partnerships svg 
 {
   display: block;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   cursor: pointer;
 }
 
