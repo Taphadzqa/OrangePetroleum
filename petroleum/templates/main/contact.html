@@ -1,0 +1,47 @@
+{% extends "layouts/main.html" %}
+{% block content %}
+
+<section class="contact">
+
+  <div class="container pt-5">
+    <h1 class="display-1">Contact us</h1>
+    <p class="lead mb-5">Ways to get in touch with the company, including phone numbers, email addresses, and a contact form.
+      Provide the physical address of the company's office and in time also the storage and distribution centers.
+      Call-out box to encourage users to get in touch with the company with any questions or concerns they may have.
+    </p>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Visit our offices</h3>
+        <p class="lead mb-3">Third Floor, Ballyoaks Office Park Silky Oak House, 35 Ballyclare Dr, Bryanston, Johannesburg, 2191</p>
+        
+        <h3>Give us a call</h3>
+        <p class="lead"><strong>Landline: </strong>+27 71 531 2331</p>
+        <p class="lead mb-3"><strong>After hours: </strong>+27 69 895 6421</p>
+        
+        <h3>You want to write instead?</h3>
+        <p class="lead"><strong>Email: </strong>cobus@orangepetroleum.co.za</p>
+      </div>
+      <div class="col-md-6">
+        <form action="">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Name" autocomplete="off">
+            <label for="name">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="email" placeholder="Email" autocomplete="off">
+            <label for="email">Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Message" id="message" style="height: 8rem;"></textarea>
+            <label for="message">Message</label>
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg mb-3">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{% endblock content %}

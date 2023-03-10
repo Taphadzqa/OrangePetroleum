@@ -1,0 +1,75 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper 
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+main 
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 146px;
+}
+
+header
+{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header .navbar 
+{
+  background-color: #FFF;
+}
+
+header .navbar .nav-link 
+{
+  color: #222;
+  font-size: 1.75rem;
+  margin-left: 2.5rem;
+  font-weight: bold;
+}
+
+header .navbar .nav-link:hover 
+{
+  color: #FFA500;
+}
+
+.navbar-toggler, .navbar-toggler-icon 
+{
+  color: #FFA500;
+}
+
+section 
+{
+  position: inherit;
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 2rem;
+  background-color: #EFEFEF;
+}
+
+section.home 
+{
+  background-image: url('img/bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.home .card 
+{
+  background-color: rgb(0, 0, 0, .8);
+  color: #EEE;
+}
