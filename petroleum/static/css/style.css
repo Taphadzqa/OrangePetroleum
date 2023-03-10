@@ -34,12 +34,37 @@ header .navbar
   background-color: #FFF;
 }
 
+header .navbar-brand img 
+{
+  width: 100%;
+}
+
 header .navbar .nav-link 
 {
   color: #222;
   font-size: 1.75rem;
   margin-left: 2.5rem;
   font-weight: bold;
+}
+
+
+@media screen and (max-width: 1400px) {
+  main 
+  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 86px;
+  }
+  header .navbar-brand img 
+  {
+    width: 50%;
+  }
+  header .navbar .nav-link 
+  {
+    font-size: 1.125rem;
+    margin-left: 1.25rem;
+  }
 }
 
 header .navbar .nav-link:hover 
@@ -89,7 +114,7 @@ section
   color: #EEE;
   width: 450px;
   right: 10rem;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
 }
 
