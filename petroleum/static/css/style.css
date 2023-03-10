@@ -111,10 +111,37 @@ section
   font-weight: 500;
 }
 
-.home .carousel-item:nth-child(1) {
+.home .carousel-item:nth-child(1) 
+{
   background-image: url('img/bg1.png');
 } 
 
-.home .carousel-item:nth-child(2) {
+.home .carousel-item:nth-child(2) 
+{
   background-image: url('img/bg2.png');
 } 
+
+a.text-warning
+{
+  text-decoration: none;
+}
+
+.fuel_pump:hover{
+  cursor: pointer;
+  opacity: .5;
+}
+
+.contact 
+{
+  background-image: url('img/orange_map.jpg');
+  background-color: rgb(0, 0, 0, .6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.contact h1, .contact h3, .contact p 
+{
+  color: #FFF;
+}

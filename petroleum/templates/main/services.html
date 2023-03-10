@@ -4,15 +4,21 @@
 <section class="services">
 
   <div class="container pt-5">
-    <h1 class="display-1">Products & Services</h1>
-    <p class="lead mb-5">
-      <ol>
-        <li>Pictures of Gasoil (Diesel 50 & 500 ppm) and Gasoline (Petrol)</li>
-        <li>List additional services: Fuel transport & delivery including depot storage</li>
-        <li>Highlight the quality of the products and the competitive pricing</li>
-      </ol>
-    </p>
+    <h1 class="display-1 mb-3">Products & Services</h1>
+    <p class="lead">At Orange Petroleum we provide quality fuel at a competetive price to keep you moving.</p>
+    <p class="lead">Orange Petroleum fuel transport services are supported by <a href="" class="text-warning fw-bold">Orange Logistics</a> providing innovative and reliable value-driven solutions at the lowest possible prices.</p>
     <a href="{{ url_for('main.contact') }}" class="btn btn-lg btn-warning">Get in touch</a>
+    <div class="row my-5 text-center">
+      <div class="col-lg">
+        <img src="{{ url_for('static', filename='css/img/500ppm.png') }}" class="fuel_pump" alt="petrol1" width="70%">
+      </div>
+      <div class="col-lg">
+        <img src="{{ url_for('static', filename='css/img/50ppm.png') }}" class="fuel_pump" alt="petrol1" width="70%">
+      </div>
+      <div class="col-lg">
+        <img src="{{ url_for('static', filename='css/img/ulp.png') }}" class="fuel_pump" alt="petrol1" width="70%">
+      </div>
+    </div>
   </div>
 
 </section>
