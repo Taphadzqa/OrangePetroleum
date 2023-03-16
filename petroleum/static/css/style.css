@@ -69,12 +69,12 @@ header .navbar .nav-link
 
 header .navbar .nav-link:hover 
 {
-  color: #FFA500;
+  color: #FFA500 !important;
 }
 
 .navbar-toggler, .navbar-toggler-icon 
 {
-  color: #FFA500;
+  color: #FFA500 !important;
 }
 
 section 
@@ -151,9 +151,20 @@ a.text-warning
   text-decoration: none;
 }
 
+.fuel_pump{
+  width: 75%;
+}
+
 .fuel_pump:hover{
   cursor: pointer;
   opacity: .5;
+}
+
+@media screen and (max-width: 900px) {
+  .fuel_pump{
+    width: 25%;
+    margin-bottom: 4rem;
+  }
 }
 
 .contact 
